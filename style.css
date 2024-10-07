@@ -1,15 +1,16 @@
 :root{
-
-    --cor-de-fundo : #EBECEE;
-}
-body{
-    background-color: var(--cor-de-fundo);
-}
-h1{
-    background-color: white;
-}
- {
-    sargin:0;
-    padding:0;
-
-}
+    --cor-de-fundo: #ebecee;
+   }
+   
+   body{
+   background-color: #ebecee;
+   
+   }
+   h1{
+       background-color: var(--cor-de-fundo);
+   }
+   
+   *{
+    margin: 0;
+    padding: 0;
+   }
