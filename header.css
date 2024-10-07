@@ -1,13 +1,21 @@
 .cabecalho_menu-hamburguer{
-    width: 24px;/*largura*/
-    height: 24px;/*alura*/
+    width: 24px;
+    /*largura*/
+    height: 24px;
+    /*alura*/
     background-image: url(Menu.svg);
+     /*imagem de fundo*/
+     background-repeat:no-repeat ;
+     background-position: center;
     display: inline-block;
+    /**/
 }
 .cabecalho{
     background-color: var(white);
+ 
     display: flex;
-    justify-content: space-between;/*espaço entre os itens*/
+    justify-content: space-between;
+    /*espaço entre os itens*/
     align-items: center;
 }
 .container{
